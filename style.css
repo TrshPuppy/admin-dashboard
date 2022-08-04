@@ -57,6 +57,18 @@ body
     background-color: green;
     grid-area: 1/2/2/4;
 }
+.search
+{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.crystal-ball
+{
+    width:50%;
+}
+
 .right-menu
 {
     background-color: blue;
