@@ -123,9 +123,11 @@ body
     grid-area:2/2/3/3;
     width:clamp(25ch,100%,50ch);
     align-content:space-around;
+    justify-items:stretch;
 }
 .main-dash p
 {
     width:20ch;
     border:2px solid black;
+    margin:20px;
 }
