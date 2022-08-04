@@ -113,29 +113,30 @@ body
 }
 .right-menu
 {
-    background-color: lightslategray;
+
     grid-area:2/3/3/4;
-    width:minmax(10ch,50%);
+    width:clamp(20ch,35%,150ch);
 }
 .main-dash
 {
     grid-area:2/2/3/4;
-    background-color: pink;
     display:flex;
-    flex-flow:row nowrap;
+    flex-flow:row wrap;
     align-items: stretch;
     justify-content: center;
 }
 .projects
 {
     display:flex;
-    flex-flow: rowwrap;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
+    width:clamp(35ch,65%,150ch);
 }
 .projects p
 {
-    width:25ch;
+    width:clamp(30ch,45%,40ch);
     border:2px solid black;
-    margin:20px;
+    margin:10px;
 }
