@@ -65,9 +65,10 @@ body
     display:flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content:center;
+    justify-content:start;
     grid-area:1/1/2/3;
     padding:10px;
+    box-sizing: border-box;
 }
 .crystal-ball
 {
@@ -78,7 +79,8 @@ body
 {
     background-color:#A5D2D5; 
     height:3vh;
-    flex:1;
+
+    width:clamp(35ch,65%,150ch);
     border-radius: 10px;
 }
 .greeting-box
