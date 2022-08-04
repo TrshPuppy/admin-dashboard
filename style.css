@@ -119,22 +119,21 @@ body
 }
 .main-dash
 {
-    display:flex;
-    flex-flow:row wrap;
-    align-items:center;
-    justify-content: flex-start;
-    grid-area:2/2/3/3;
-    display:flex;
-    flex-flow:row wrap;
-    align-items: center;
-    justify-content: space-around;
+    grid-area:2/2/3/4;
     background-color: pink;
-    justify-items:start;
-    
-    align-content:space-around;
-    justify-items:stretch;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: stretch;
+    justify-content: center;
 }
-.main-dash p
+.projects
+{
+    display:flex;
+    flex-flow: rowwrap;
+    align-items: center;
+    justify-content: center;
+}
+.projects p
 {
     width:25ch;
     border:2px solid black;
