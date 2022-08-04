@@ -67,6 +67,10 @@ body
 {
     width:40%;
 }
+.menu-icon:hover
+{
+    transform:translateY(-5px);
+}
 .logout
 {
     display:flex;
@@ -79,6 +83,10 @@ body
 {
     transform:rotateY(180deg);
     width:50%;
+}
+.logout-icon:hover
+{
+    transform: translateY(-5px);
 }
 
 .header
