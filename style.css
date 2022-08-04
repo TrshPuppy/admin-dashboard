@@ -113,20 +113,29 @@ body
 {
     background-color: lightslategray;
     grid-area:2/3/3/4;
+    width:clamp(25ch,50%,50ch);
 }
 .main-dash
+{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content: flex-start;
+    grid-area:2/2/3/4;
+}
+.projects
 {
     display:flex;
     flex-flow:row wrap;
     align-items: center;
     justify-content: space-around;
     background-color: pink;
-    grid-area:2/2/3/3;
-    width:clamp(25ch,100%,50ch);
+    justify-items:start;
+    width:clamp(25ch,50%,50ch);
     align-content:space-around;
     justify-items:stretch;
 }
-.main-dash p
+.projects p
 {
     width:20ch;
     border:2px solid black;
