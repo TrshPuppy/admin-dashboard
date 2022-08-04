@@ -80,7 +80,18 @@ body
     width:10%;
     border-radius:50%;
 }
-
+.account-box
+{
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content:center;
+}
+.account-logo
+{
+    width:5%;
+    border-radius: 50%;
+}
 .right-menu
 {
     background-color: lightslategray;
