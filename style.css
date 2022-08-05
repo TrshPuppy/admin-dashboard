@@ -7,7 +7,7 @@
 
 body
 {
-    background-color:black;
+    background-color: #E2E8F0;
 }
 
 .container-main
@@ -29,6 +29,7 @@ body
     background-color:#D1C8C4;
     border-radius:10px;
     width:clamp(2ch,100%,40ch);
+    box-shadow: 5px 5px 5px #a7adb3;
 }
 .logo
 {
@@ -199,6 +200,7 @@ button:active
     width:clamp(20ch,35%,150ch);
     background-color:#E4DAFF;
     border-radius:10px;
+    box-shadow: 5px 5px 5px #a7adb3;
 }
 .main-dash
 {
