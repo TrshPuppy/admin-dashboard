@@ -145,13 +145,26 @@ form
     grid-area:2/1/3/3;
     padding:10px;
     font-family: 'Press Start 2P';
-    font-size: 1rem;
+    font-size: .6rem;
 }
 .greeting-logo
 {
     width:clamp(10px,50%,80px);
     border-radius:50%;
     padding:10px;
+}
+.greeting-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.user-name
+{
+    font-size: 1rem;
+    padding: 10px 0;
 }
 .account-box
 {
@@ -244,7 +257,10 @@ button:active
     margin:10px;
     box-shadow: 5px 5px 5px #a7adb3;
     background-color:#C7EDE6;
-    border-left: 10px solid #855FB0;
+    border-left: 10px solid #70499e;
+    padding:10px;
+    font-family: 'Inconsolata';
+    font-size: 1.2rem;
 }
 #finished
 {
