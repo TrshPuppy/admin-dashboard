@@ -247,6 +247,26 @@ button:active
     border-radius:10px;
     box-shadow: 5px 5px 5px #a7adb3;
 }
+.right-container
+{
+    background-color: white;
+    border-radius: 10px;
+    margin:20px;
+    padding:10px;
+}
+.link-tree
+{
+    background-color: yellow;
+    margin:10px;
+    padding:10px;
+}
+.community-box
+{
+    background-color: yellow;
+    margin:10px;
+    padding:10px;
+}
+
 .main-dash
 {
     grid-area:2/2/3/4;
