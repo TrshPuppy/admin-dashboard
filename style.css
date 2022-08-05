@@ -215,12 +215,23 @@ button:active
 .projects
 {
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around;
-    width:clamp(35ch,65%,150ch);
+    justify-content: flex-start;
     border-radius:10px;
-
+    width:clamp(35ch,65%,150ch);
+}
+.projects-title
+{
+    padding:20px;
+    align-self:flex-start;
+}
+.projects-container
+{
+    display:flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: space-around;
 }
 .projects p
 {
