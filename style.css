@@ -221,12 +221,12 @@ button:active
     border-radius:10px;
     width:clamp(35ch,65%,150ch);
 }
-.projects-title
+.container-title
 {
     padding:20px;
     align-self:flex-start;
 }
-.projects-container
+.current-container
 {
     display:flex;
     flex-flow: row wrap;
