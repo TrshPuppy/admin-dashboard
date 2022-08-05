@@ -241,8 +241,12 @@ button:active
 
 .right-menu
 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
     grid-area:2/3/3/4;
-    width:clamp(20ch,35%,150ch);
+    width:clamp(35ch,35%,150ch);
     background-color:#E4DAFF;
     border-radius:10px;
     box-shadow: 5px 5px 5px #a7adb3;
@@ -253,6 +257,12 @@ button:active
     border-radius: 10px;
     margin:20px;
     padding:10px;
+
+}
+.right-container .title
+{
+    font-family: 'Press Start 2P';
+    font-size: .7rem;
 }
 .link-tree
 {
@@ -323,6 +333,7 @@ button:active
 .finished-section
 {
     background-color: #b5bcc2;
+    border-radius: 10px;
 }
 #finished .card p
 {
