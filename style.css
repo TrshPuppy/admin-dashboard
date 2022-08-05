@@ -216,8 +216,8 @@ button:active
 {
     display:flex;
     flex-flow: column nowrap;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
     border-radius:10px;
     width:clamp(35ch,65%,150ch);
 }
@@ -226,7 +226,7 @@ button:active
     padding:20px;
     align-self:flex-start;
 }
-.current-container
+.section-container
 {
     display:flex;
     flex-flow: row wrap;
@@ -246,4 +246,8 @@ button:active
 {
     transform: translateY(5px);
     box-shadow: none;
+}
+#finished
+{
+    background-color: #a7adb3;
 }
