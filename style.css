@@ -276,30 +276,34 @@ button:active
     align-items: center;
     justify-content: space-between;
     width:clamp(30ch,45%,40ch);
-    border-radius: 10px;
     margin:10px;
-    box-shadow: 5px 5px 5px #a7adb3;
+}
+.card p
+{
     background-color:#C7EDE6;
+    border-radius: 10px;
     border-left: 10px solid #70499e;
+    box-shadow: 5px 5px 5px #a7adb3;
     padding:10px;
     padding-bottom: 0px;
     font-family: 'Inconsolata';
     font-size: 1.2rem;
+    cursor: pointer;
 }
 .finished-section
 {
     background-color: #a7adb3;
 }
-#finished .card
+#finished .card p
 {
     box-shadow: 5px 5px 5px #717477;
 }
-#finished .card:hover
+#finished .card p:hover
 {
     transform: translateY(5px);
     box-shadow: 2px 2px 2px #717477;
 }
-.projects .card:hover
+.projects .card p:hover
 {
     transform: translateY(5px);
     box-shadow:2px 2px 2px #a7adb3;
@@ -307,8 +311,7 @@ button:active
 .card-icons
 {
     align-self: flex-end;
-    padding-top: 5px;
-
+    padding: 8px 0;
     width: fit-content;
     text-align: end;
 }
