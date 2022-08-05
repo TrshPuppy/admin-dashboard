@@ -8,6 +8,7 @@
 body
 {
     background-color: #E2E8F0;
+    font-family: 'Trispace',monospace;
 }
 
 .container-main
@@ -26,7 +27,7 @@ body
     align-items: center;
     justify-content: sflex-start;
     grid-area:1/1/3/2;
-    background-color:#D1C8C4;
+    background-color: antiquewhite;
     border-radius:10px;
     width:clamp(2ch,100%,40ch);
     box-shadow: 5px 5px 5px #a7adb3;
@@ -42,8 +43,9 @@ body
 {
     font-family: 'Shrikhand',cursive;
     font-size: max(1vw,2vw);
-    color:#C7EDE6;
+    color:#70499e;
     padding:20px;
+    text-shadow: 4px 4px 4px#C7EDE6;
 }
 .trash-icon
 {
@@ -142,6 +144,8 @@ form
     justify-content:center;
     grid-area:2/1/3/3;
     padding:10px;
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
 }
 .greeting-logo
 {
@@ -242,12 +246,23 @@ button:active
     background-color:#C7EDE6;
     border-left: 10px solid #855FB0;
 }
-.projects p:hover
-{
-    transform: translateY(5px);
-    box-shadow: none;
-}
 #finished
 {
     background-color: #a7adb3;
 }
+#finished p
+{
+    box-shadow: 5px 5px 5px #717477;
+}
+#finished p:hover
+{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 2px #717477;
+}
+.projects p:hover
+{
+    transform: translateY(5px);
+    box-shadow:2px 2px 2px #a7adb3;
+}
+
+
