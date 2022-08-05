@@ -72,10 +72,15 @@ body
 {
     width:45%;
     padding: 10px 0;
+    cursor: pointer;
 }
 .menu-icon:hover
 {
     transform:translateY(-5px);
+}
+.menu-icon:active
+{
+    transform: translateY(0px);
 }
 .logout
 {
@@ -91,10 +96,15 @@ body
 {
     transform:rotateY(180deg);
     width:50%;
+    cursor: pointer;
 }
 .logout-icon:hover
 {
     transform: translateY(-5px);
+}
+.logout-icon:active
+{
+    transform: translateY(0px);
 }
 
 .header
@@ -190,6 +200,7 @@ form
     height:5vh;
     border-radius: 50%;
     padding:5px;
+    cursor: pointer;
 }
 .account-logo:hover
 {
@@ -219,7 +230,7 @@ button
 }
 button:hover
 {
-    border: 1px solid #70499e;
+    background-color: antiquewhite;
 }
 button:active
 {
@@ -243,7 +254,6 @@ button:active
     flex-flow:row wrap;
     align-items: stretch;
     justify-content: center;
-
     background-color:transparent;
 }
 .projects
@@ -303,10 +313,20 @@ button:active
     transform: translateY(5px);
     box-shadow: 2px 2px 2px #717477;
 }
+#finished .card p:active
+{
+    box-shadow: none;
+    transform: translateY(1px);
+}
 .projects .card p:hover
 {
     transform: translateY(5px);
     box-shadow:2px 2px 2px #a7adb3;
+}
+.projects .card p:active
+{
+    box-shadow: none;
+    transform: translateY(1px);
 }
 .card-icons
 {
@@ -323,6 +343,10 @@ button:active
 .card-icon:hover
 {
     transform: translateY(-5px);
+}
+.card-icon:active
+{
+    transform: translateY(0px);
 }
 
 
