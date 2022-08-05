@@ -179,7 +179,7 @@ form
 {
     display:flex;
     flex-flow:row nowrap;
-    align-items:center;
+    align-items:flex-start;
     grid-area:1/3/2/4;
     justify-content:flex-end;
     padding:10px;
@@ -190,6 +190,10 @@ form
     height:5vh;
     border-radius: 50%;
     padding:5px;
+}
+.account-logo:hover
+{
+    transform: translateY(-5px);
 }
 .new-project
 {
@@ -255,16 +259,22 @@ button:active
 {
     padding:20px;
     align-self:flex-start;
+    font-family: 'Press Start 2P';
+    font-size: .7rem;
 }
 .section-container
 {
     display:flex;
     flex-flow: row wrap;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.projects p
+.card
 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
     width:clamp(30ch,45%,40ch);
     border-radius: 10px;
     margin:10px;
@@ -272,26 +282,44 @@ button:active
     background-color:#C7EDE6;
     border-left: 10px solid #70499e;
     padding:10px;
+    padding-bottom: 0px;
     font-family: 'Inconsolata';
     font-size: 1.2rem;
 }
-#finished
+.finished-section
 {
     background-color: #a7adb3;
 }
-#finished p
+#finished .card
 {
     box-shadow: 5px 5px 5px #717477;
 }
-#finished p:hover
+#finished .card:hover
 {
     transform: translateY(5px);
     box-shadow: 2px 2px 2px #717477;
 }
-.projects p:hover
+.projects .card:hover
 {
     transform: translateY(5px);
     box-shadow:2px 2px 2px #a7adb3;
+}
+.card-icons
+{
+    align-self: flex-end;
+    padding-top: 5px;
+
+    width: fit-content;
+    text-align: end;
+}
+.card-icon
+{
+    width:10%;
+    cursor: pointer;
+}
+.card-icon:hover
+{
+    transform: translateY(-5px);
 }
 
 
