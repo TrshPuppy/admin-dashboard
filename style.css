@@ -19,7 +19,7 @@ body
     background-color:  #E2E8F0;
     height:100vh;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~LEFT MENU~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .left-menu
 {
     display:flex;
@@ -106,7 +106,7 @@ body
 {
     transform: translateY(0px);
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .header
 {
     display:grid;
@@ -146,7 +146,6 @@ form
     align-items: center;
     justify-content: center;
 }
-
 #search-bar
 {
     background-color:#C7EDE6; 
@@ -238,7 +237,7 @@ button:active
     box-shadow: 2px 2px 2px #C7EDE6; 
     transform: translateY(5px);
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .right-menu
 {
     display: flex;
@@ -321,7 +320,7 @@ button:active
     font-weight: bolder;
     padding: 5px 0;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAIN DASH~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .main-dash
 {
     grid-area:2/2/3/4;
