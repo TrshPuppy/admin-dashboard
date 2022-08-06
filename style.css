@@ -362,43 +362,52 @@ button:active
     width:clamp(30ch,45%,40ch);
     margin:10px;
 }
-.card p
+.card-content
 {
     background-color:#C7EDE6;
     border-radius: 10px;
     border-left: 10px solid #70499e;
     box-shadow: 5px 5px 5px #a7adb3;
     padding:10px;
-    padding-bottom: 0px;
     font-family: 'Inconsolata';
     font-size: 1.2rem;
     cursor: pointer;
+    height:12vh;
+}
+.card-content h3
+{
+    padding:5px 0;
+    font-weight: bolder;
+}
+.card-content p
+{
+    font-size: 1rem;
 }
 .finished-section
 {
     background-color: #b5bcc2;
     border-radius: 10px;
 }
-#finished .card p
+#finished .card-content
 {
     box-shadow: 5px 5px 5px #717477;
 }
-#finished .card p:hover
+#finished .card-content:hover
 {
     transform: translateY(5px);
     box-shadow: 2px 2px 2px #717477;
 }
-#finished .card p:active
+#finished .card-content:active
 {
     box-shadow: none;
     transform: translateY(1px);
 }
-.projects .card p:hover
+.projects .card-content:hover
 {
     transform: translateY(5px);
     box-shadow:2px 2px 2px #a7adb3;
 }
-.projects .card p:active
+.projects .card-content:active
 {
     box-shadow: none;
     transform: translateY(1px);
