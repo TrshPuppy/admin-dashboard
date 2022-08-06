@@ -159,7 +159,7 @@ form
     display:flex;
     flex-flow:row nowrap;
     align-items: center;
-    justify-content:center;
+    justify-content:flex-start;
     grid-area:2/1/3/3;
     padding:10px;
     font-family: 'Press Start 2P';
@@ -177,7 +177,6 @@ form
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 .user-name
 {
@@ -364,7 +363,7 @@ button:active
 }
 .card-content
 {
-    background-color:#C7EDE6;
+    background-color:white;
     border-radius: 10px;
     border-left: 10px solid #70499e;
     box-shadow: 5px 5px 5px #a7adb3;
@@ -372,7 +371,7 @@ button:active
     font-family: 'Inconsolata';
     font-size: 1.2rem;
     cursor: pointer;
-    height:12vh;
+    height:20vh;
 }
 .card-content h3
 {
