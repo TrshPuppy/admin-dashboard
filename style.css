@@ -278,10 +278,16 @@ button:active
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    border-left: 5px solid #a7adb3;
+    border-left: 5px solid #E4DAFF;
+    box-shadow: 5px 5px 5px #a7adb3;
     border-radius: 10px;
-    margin:10px;
+    margin:20px 10px;
     padding:10px;
+    cursor: pointer;
+}
+.community-box:hover
+{
+    transform: translateY(-5px);
 }
 .user-box
 {
