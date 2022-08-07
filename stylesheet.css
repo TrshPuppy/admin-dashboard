@@ -1,0 +1,20 @@
+:root
+{
+/*Default/ Light mode*/
+--lt-main-color: white;
+--lt-light-accent: #E4DAFF;
+--lt-dark-accent:#70499e;
+--lt-off-white: antiquewhite;
+--lt-box-shadow:5px 5px 5px #a7adb3;
+--lt-light-dash:#E2E8F0;
+--lt-dark-dash:#d4dbe0;
+--lt-blue-accent:#C7EDE6;
+
+
+}
+
+*
+{
+    margin:0;
+    padding:0;
+}
