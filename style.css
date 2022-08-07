@@ -371,7 +371,7 @@ button:active
     font-family: 'Inconsolata';
     font-size: 1.2rem;
     cursor: pointer;
-    height:20vh;
+    height:16vh;
 }
 .card-content h3
 {
