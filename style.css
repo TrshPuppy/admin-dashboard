@@ -158,7 +158,7 @@ form
 }
 #search-bar
 {
-    background-color:#C7EDE6; 
+    background-color:#d7f1ed; 
     height:3vh;
     width:clamp(10ch,90%,150ch);
     border-radius: 10px;
@@ -254,14 +254,14 @@ button:active
     align-items: center;
     justify-content: flex-start;
     width:clamp(35ch,35%,65ch);
-    background-color:antiquewhite;
+    background-color:#E4DAFF;
     border-radius:10px;
     box-shadow: 5px 5px 5px #a7adb3;
     flex:1;
 }
 .right-container
 {
-    background-color:#E4DAFF;
+    background-color:antiquewhite;
     border-radius: 10px;
     margin:20px;
     padding:10px;
