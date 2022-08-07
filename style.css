@@ -31,6 +31,7 @@ body
     border-radius:10px;
     width:100%;
     box-shadow: 5px 5px 5px #a7adb3;
+    z-index: 1;
 }
 .logo
 {
@@ -124,6 +125,7 @@ body
     box-shadow: 0px 5px 5px #a7adb3;
     position:sticky;
     top:0;
+    z-index: 1;
 }
 .search
 {
@@ -251,11 +253,11 @@ button:active
     flex-flow: column nowrap;
     align-items: center;
     justify-content: flex-start;
-    grid-area:2/3/3/4;
-    width:clamp(35ch,35%,150ch);
+    width:clamp(35ch,35%,65ch);
     background-color:antiquewhite;
     border-radius:10px;
     box-shadow: 5px 5px 5px #a7adb3;
+    flex:1;
 }
 .right-container
 {
@@ -285,13 +287,14 @@ button:active
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height:10vh;
     background-color: white;
     border-radius: 10px;
     box-sizing: border-box;
     margin:10px;
     border-left: 5px solid #70499e;
     box-shadow: 5px 5px 5px #a7adb3;
+    height:100px;
+    width: clamp()
 }
 .link-tree-box:hover
 {
@@ -372,6 +375,7 @@ button:active
     justify-content: space-between;
     border-radius:10px;
     width:clamp(65ch,65%,150ch);
+    z-index: 0;
 }
 .container-title
 {
@@ -385,7 +389,6 @@ button:active
     flex-flow: row wrap;
     align-items:center;
     justify-content: space-evenly;
-
 }
 .card
 {
