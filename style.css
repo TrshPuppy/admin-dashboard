@@ -79,7 +79,7 @@ body
     padding: 10px 0;
     cursor: pointer;
 }
-.menu-icon:hover
+.menu-icon:hover 
 {
     transform:translateY(-5px);
 }
@@ -93,11 +93,11 @@ body
     flex-flow:column nowrap;
     align-items: center;
     justify-content: center;
-    padding-top:250px;
     font-family: 'Press Start 2P';
     font-size: .7rem;
     position:fixed;
     bottom:100px;
+    height:min-content;
 }
 .logout-icon
 {
