@@ -414,10 +414,12 @@ button:active
 {
     padding:10px 0;
     font-weight: bolder;
+    border-bottom:2px solid #70499e;
 }
 .card-content p
 {
     font-size: 1rem;
+    padding: 10px, 0;
 }
 .finished-section
 {
