@@ -226,7 +226,7 @@ button
     border:none;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #C7EDE6; 
+    box-shadow: 5px 5px 5px #a7adb3;
 }
 .new-project button
 {
@@ -241,7 +241,7 @@ button:hover
 button:active
 {
     background-color: antiquewhite;
-    box-shadow: 2px 2px 2px #C7EDE6; 
+    box-shadow: 2px 2px 2px#a7adb3;
     transform: translateY(5px);
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -253,13 +253,13 @@ button:active
     justify-content: flex-start;
     grid-area:2/3/3/4;
     width:clamp(35ch,35%,150ch);
-    background-color:#E4DAFF;
+    background-color:antiquewhite;
     border-radius:10px;
     box-shadow: 5px 5px 5px #a7adb3;
 }
 .right-container
 {
-    background-color:antiquewhite;
+    background-color:#E4DAFF;
     border-radius: 10px;
     margin:20px;
     padding:10px;
@@ -417,7 +417,7 @@ button:active
 }
 .finished-section
 {
-    background-color: #b5bcc2;
+    background-color: #d4dbe0;
     border-radius: 10px;
 }
 #finished .card-content
