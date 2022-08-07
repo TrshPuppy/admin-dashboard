@@ -287,6 +287,10 @@ button:active
     align-items: center;
     justify-content: center;
 }
+.link-tree-icon
+{
+    width:30%;
+}
 .community-box
 {
     display: flex;
