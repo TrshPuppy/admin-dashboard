@@ -275,7 +275,6 @@ button:active
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-color: white;
     border-radius: 10px;
     margin:10px;
     padding:10px;
@@ -287,6 +286,20 @@ button:active
     align-items: center;
     justify-content: space-evenly;
     height:10vh;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin:10px;
+    border-left: 5px solid #70499e;
+    box-shadow: 5px 5px 5px #a7adb3;
+}
+.link-tree-box:hover
+{
+    transform: translateY(5px);
+}
+.link-tree-box:active
+{
+   transform: translateY(2px);
 }
 .link-tree-box a
 {
@@ -306,7 +319,7 @@ button:active
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    border-left: 5px solid #E4DAFF;
+    border-left: 5px solid #70499e;
     box-shadow: 5px 5px 5px #a7adb3;
     border-radius: 10px;
     margin:20px 10px;
