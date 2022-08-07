@@ -42,7 +42,7 @@ body
 .logo p
 {
     font-family: 'Shrikhand',cursive;
-    font-size: max(1vw,2vw);
+    font-size: clamp(1rem, 2vw, 2.5rem);
     color:#70499e;
     padding:20px;
     text-shadow: 4px 4px 4px#C7EDE6;
