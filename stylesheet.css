@@ -148,6 +148,7 @@ button
     box-shadow: var(--box-shadow);
     border:none;
     cursor: pointer;
+    text-align: center;
 }
 button:hover
 {
@@ -196,6 +197,7 @@ button:active
     grid-area:grt;
     align-content:end;
     display: flex;
+    flex-flow:row wrap;
     align-items:flex-end;
     justify-content: flex-start;
     padding:10px;
@@ -208,14 +210,15 @@ button:active
     justify-content: space-around;
     height:50%;
     font-family: var(--header-font);
+    font-size: clamp(.5rem, 2vw, 1rem);
 }
 #grt-box-icon
 {
-   width:7%;
+   width:clamp(45px,7%,60px);
 }
 .greeting-text
 {
-    font-size: .6rem;
+    font-size: clamp(.4rem, 1vw,.6rem);
 }
 
 .button-box
@@ -227,7 +230,8 @@ button:active
 }
 .button-box button
 {
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 20px 0
+    ;
 }
 
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
