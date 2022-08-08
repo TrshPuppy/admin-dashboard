@@ -109,26 +109,30 @@ nav
     display:grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(3,1fr);
-    background-color: var(--main-color); 
+    background-color: var(--main-color);
+    grid-template-areas: 
+        "src src src src src src src acc acc acc"
+        "grt grt grt grt grt grt grt btn btn btn"
+        "grt grt grt grt grt grt grt btn btn btn";
 }
 .search-bar
 {
-    grid-area:1/1/2/7;
+    grid-area: src;
     background-color: white;
 }
 .account-box
 {
-    grid-area: 1/9/2/11;
+    grid-area: acc;
     background-color: white;
 }
 .greeting-box
 {
-    grid-area:3/1/4/4;
+    grid-area:grt;
     background-color: white;
 }
 .button-box
 {
-    grid-area: 3/8/4/11;
+    grid-area: btn;
     background-color: white;
 }
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
