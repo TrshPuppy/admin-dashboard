@@ -218,7 +218,7 @@ button:active
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: flex-end;
     height:50%;
     font-family: var(--header-font);
     font-size: clamp(.5rem, 2vw, 1rem);
@@ -241,15 +241,28 @@ button:active
 }
 .button-box button
 {
-    margin: 20px 20px 20px 0
-    ;
+    margin: 20px 20px 20px 0;
 }
 
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
 .main-dash
 {
     grid-area: 4/3/13/10;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: var(--light-dash);
+}
+.card
+{
+    background-color: white;
+    width: clamp(25ch, 45%, 45ch);
+    height:clamp(15vh, 50%, 30vh);
+    overflow:
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
 }
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
@@ -263,30 +276,28 @@ button:active
     .main-container
     {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(12,1fr);
+        grid-template-rows: repeat(11,1fr);
     }
     nav
     {
-        grid-area: 4/1/13/2;
+        grid-area: 3/1/12/2;
     }
     .header
     {
-        grid-area: 1/1/4/5;
+        grid-area: 1/1/3/5;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
             "src src acc acc"
-            "grt grt btn btn"
             "grt grt btn btn";
     }
     .main-dash
     {
-        grid-area: 4/2/9/5
+        grid-area: 3/2/9/5
     }
     .right-menu
     {
-        grid-row:auto;
-        grid-column:2/5;
+        grid-area: 9/2/12/5;
     }
     .account-box
     {
