@@ -221,15 +221,15 @@ button:active
     justify-content: flex-end;
     height:50%;
     font-family: var(--header-font);
-    font-size: clamp(.5rem, 2vw, 1rem);
+    font-size: clamp(.5rem, 2vw, 1.2rem);
 }
 #grt-box-icon
 {
-   width:clamp(45px,7%,60px);
+   width:clamp(45px,7%,90px);
 }
 .greeting-text
 {
-    font-size: clamp(.4rem, 1vw,.6rem);
+    font-size: clamp(.4rem, 1vw,.8rem);
 }
 
 .button-box
