@@ -107,7 +107,7 @@ nav
 /*~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~*/
 .header
 {
-    grid-area: 1/3/4/13;
+    grid-area: 1/3/3/13;
     display:grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -247,7 +247,7 @@ button:active
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
 .main-dash
 {
-    grid-area: 4/3/13/10;
+    grid-area: 3/3/13/10;
     display:flex;
     flex-flow: row wrap;
     align-items: center;
@@ -267,7 +267,7 @@ button:active
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
 {
-    grid-area: 4/10/13/13;
+    grid-area: 3/10/13/13;
     background-color: var(--light-accent);
 }
 /*~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~*/
