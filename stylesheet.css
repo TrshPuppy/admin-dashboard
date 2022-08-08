@@ -221,7 +221,13 @@ button:active
 .button-box
 {
     grid-area: btn;
-
+    display: flex;
+    align-items: flex-end;
+    align-content:end;
+}
+.button-box button
+{
+    margin: 20px 20px 20px 0;
 }
 
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
