@@ -198,6 +198,7 @@ button:active
     display: flex;
     align-items:flex-end;
     justify-content: flex-start;
+    padding:10px;
 }
 .grt-text-box
 {
@@ -206,17 +207,23 @@ button:active
     align-items: flex-start;
     justify-content: space-around;
     height:50%;
+    font-family: var(--header-font);
 }
 #grt-box-icon
 {
-   width:10%;
+   width:7%;
+}
+.greeting-text
+{
+    font-size: .6rem;
 }
 
 .button-box
 {
     grid-area: btn;
-    background-color: white;
+
 }
+
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
 .main-dash
 {
