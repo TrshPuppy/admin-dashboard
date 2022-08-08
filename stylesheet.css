@@ -40,7 +40,6 @@ body.dark
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap:10px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~NAV BAR~~~~~~~~~~~~~~~*/
 nav
@@ -65,4 +64,30 @@ nav
 {
     grid-area: 4/10/13/13;
     background-color: var(--light-accent);
+}
+/*~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~*/
+@media only screen and (max-width: 550px)
+{
+    .main-container
+    {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(12,1fr);
+    }
+    nav
+    {
+        grid-area: 1/1/13/2;
+    }
+    .header
+    {
+        grid-area: 1/2/4/5;
+    }
+    .main-dash
+    {
+        grid-area: 4/2/9/5
+    }
+    .right-menu
+    {
+        grid-row:auto;
+        grid-column:2/5;
+    }
 }
