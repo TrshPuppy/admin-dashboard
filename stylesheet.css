@@ -17,7 +17,7 @@ body
     --light-dash:#E2E8F0;
     --dark-dash:#d4dbe0;
     --blue-accent:#C7EDE6;
-    --logo-font:'Shrikhad',monospace;
+    --logo-font:'Shrikhand',monospace;
     --main-font:'Trispace',monospace;
     --header-font:'Press Start 2P',monospace;
     --content-font:'Inconsolata',monospace;
@@ -31,7 +31,7 @@ body.dark
 {
     --main-color: rgb(54, 54, 54);
     --light-accent: #70499e;
-    --dark-accent:#70499e;
+    --dark-accent:#351D61;
     --off-white: #e49f51;
     --box-shadow:5px 5px 5px #a7adb3;
     --light-dash:#adb1b4;
@@ -58,7 +58,23 @@ nav
     background-color: var(--off-white);
     font-family: var(--header-font);
 }
-
+.logo
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--logo-font);
+    font-size:  clamp(1.5rem, 2vw, 2.5rem);
+    color: var(--dark-accent);
+    text-shadow: 4px 4px 4px var(--blue-accent);
+    text-align: center;
+    padding:10px;
+}
+.trash-icon
+{
+    width:50%;
+}
 /*~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~*/
 .header
 {
