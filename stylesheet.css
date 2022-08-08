@@ -111,6 +111,26 @@ nav
     grid-template-rows: repeat(3,1fr);
     background-color: var(--main-color); 
 }
+.search-bar
+{
+    grid-area:1/1/2/7;
+    background-color: white;
+}
+.account-box
+{
+    grid-area: 1/9/2/11;
+    background-color: white;
+}
+.greeting-box
+{
+    grid-area:3/1/4/4;
+    background-color: white;
+}
+.button-box
+{
+    grid-area: 3/8/4/11;
+    background-color: white;
+}
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
 .main-dash
 {
