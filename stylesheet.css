@@ -256,11 +256,17 @@ button:active
     }
     nav
     {
-        grid-area: 1/1/13/2;
+        grid-area: 4/1/13/2;
     }
     .header
     {
-        grid-area: 1/2/4/5;
+        grid-area: 1/1/4/5;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+            "src src acc acc"
+            "grt grt btn btn"
+            "grt grt btn btn";
     }
     .main-dash
     {
