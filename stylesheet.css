@@ -248,6 +248,7 @@ button:active
 .main-dash
 {
     grid-area: 3/3/13/10;
+    align-content: start;
     display:flex;
     flex-flow: row wrap;
     align-items: center;
@@ -260,19 +261,20 @@ button:active
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: white;
-    width: clamp(25ch, 45%, 45ch);
-    height:clamp(15vh, 50%, 30vh);
-    overflow: scroll;
-    margin:10px;
+    background-color: var(--main-color);
+    width: clamp(25ch, 70%, 45ch);
+    height:clamp(15vh, 50%, 25vh);
+
+    margin:20px;
     padding:10px;
     box-sizing: border-box;
     font-family: var(--main-font);
 }
 .card-title
 {
-    font-family: var(--logo-font);
+    /* font-family: var(--main-font); */
     font-size: 1.5rem;
+    font-weight: 1000;
     border-bottom: 3px solid var(--dark-accent);
     border-radius: 0;
     padding:10px;
@@ -280,6 +282,31 @@ button:active
 .card-content
 {
     padding:10px;
+    overflow: scroll;
+}
+.card-action-icons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex:1;
+    background-color:var(--main-color)
+    height:40px;
+}
+.card-icon
+{
+    height:40px;
+    cursor: pointer;
+    padding: 0 5px 0 5px;
+}
+.card-icon:hover
+{
+    transform: translateY(5px);
+}
+.card-icon:active
+{
+    transform: translateY(0px);
 }
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
