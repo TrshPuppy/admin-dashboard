@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Press+Start+2P&family=Shrikhand&family=Trispace&display=swap');
 *
 {
     margin:0;
@@ -17,7 +17,13 @@ body
     --light-dash:#E2E8F0;
     --dark-dash:#d4dbe0;
     --blue-accent:#C7EDE6;
+    --logo-font:'Shrikhad',monospace;
+    --main-font:'Trispace',monospace;
+    --header-font:'Press Start 2P',monospace;
+    --content-font:'Inconsolata',monospace;
+
     color:black;
+
 }
 
 /*Dark mode*/
@@ -26,7 +32,7 @@ body.dark
     --main-color: rgb(54, 54, 54);
     --light-accent: #70499e;
     --dark-accent:#70499e;
-    --off-white: #E2AD70;
+    --off-white: #e49f51;
     --box-shadow:5px 5px 5px #a7adb3;
     --light-dash:#adb1b4;
     --dark-dash:#5c5e5f;
@@ -45,8 +51,14 @@ body.dark
 nav
 {
     grid-area: 1/1/13/3;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--off-white);
+    font-family: var(--header-font);
 }
+
 /*~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~*/
 .header
 {
@@ -66,7 +78,7 @@ nav
     background-color: var(--light-accent);
 }
 /*~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~*/
-@media only screen and (max-width: 550px)
+@media only screen and (max-width: 810px)
 {
     .main-container
     {
