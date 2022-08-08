@@ -253,16 +253,33 @@ button:active
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--light-dash);
+    overflow-y: scroll;
 }
 .card
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: white;
     width: clamp(25ch, 45%, 45ch);
     height:clamp(15vh, 50%, 30vh);
-    overflow:
+    overflow: scroll;
     margin:10px;
     padding:10px;
     box-sizing: border-box;
+    font-family: var(--main-font);
+}
+.card-title
+{
+    font-family: var(--logo-font);
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--dark-accent);
+    border-radius: 0;
+    padding:10px;
+}
+.card-content
+{
+    padding:10px;
 }
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
