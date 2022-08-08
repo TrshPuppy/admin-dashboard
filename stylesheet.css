@@ -68,7 +68,7 @@ nav
     justify-content: center;
     font-family: var(--logo-font);
     font-size:  clamp(1.5rem, 2vw, 2.5rem);
-    color: var(--dark-accent);
+    color: #351D61;
     text-shadow: 4px 4px 4px var(--blue-accent);
     padding:10px;
 }
@@ -86,7 +86,7 @@ nav
 }
 .menu-icon
 {
-    width:50%;
+    width:45px;
     cursor:pointer;
     padding:5px 0;
 }
