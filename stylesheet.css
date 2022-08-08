@@ -194,8 +194,24 @@ button:active
 .greeting-box
 {
     grid-area:grt;
-    background-color: white;
+    align-content:end;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
 }
+.grt-text-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height:50%;
+}
+#grt-box-icon
+{
+   width:10%;
+}
+
 .button-box
 {
     grid-area: btn;
