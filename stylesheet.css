@@ -166,30 +166,41 @@ button:active
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding:20px;
+    padding:10px;
     height:50%;
 }
 .user-account-icon
 {
-    width:15%;
+    width:clamp(40px,15%,50px);
     border-radius: 50%;
     padding:0 10px;
+    cursor: pointer;
 }
 .user-account-icon:hover
 {
     transform: translateY(-5px);
 }
-#dark-mode-btn
+.user-account-icon:active
 {
-    background-color: transparent;
-    box-shadow: none;
-    padding:0 10px;
+    transform: translateY(0px);
 }
-#notifications-btn
+.account-box button
 {
     background-color: transparent;
     box-shadow: none;
     padding: 0 10px;
+}
+#account-box-icon
+{
+    width:clamp(20px, 90%,35px);
+}
+#account-box-icon:hover
+{
+    transform: translateY(-5px);
+}
+#account-box-icon:active
+{
+    transform: translateY(0px);
 }
 
 .greeting-box
@@ -276,5 +287,9 @@ button:active
     {
         grid-row:auto;
         grid-column:2/5;
+    }
+    .account-box
+    {
+        justify-content: flex-end;
     }
 }
