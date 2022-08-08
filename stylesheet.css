@@ -1,22 +1,37 @@
-:root
-{
-/*Default/ Light mode*/
---lt-main-color: white;
---lt-light-accent: #E4DAFF;
---lt-dark-accent:#70499e;
---lt-off-white: antiquewhite;
---lt-box-shadow:5px 5px 5px #a7adb3;
---lt-light-dash:#E2E8F0;
---lt-dark-dash:#d4dbe0;
---lt-blue-accent:#C7EDE6;
-
-/*Dark mode*/
-}
 
 *
 {
     margin:0;
     padding:0;
+    border-radius: 10px;
+}
+
+/*Default/ Light mode*/
+body
+{
+    --main-color: white;
+    --light-accent: #E4DAFF;
+    --dark-accent:#70499e;
+    --off-white: antiquewhite;
+    --box-shadow:5px 5px 5px #a7adb3;
+    --light-dash:#E2E8F0;
+    --dark-dash:#d4dbe0;
+    --blue-accent:#C7EDE6;
+    color:black;
+}
+
+/*Dark mode*/
+body.dark
+{
+    --main-color: rgb(54, 54, 54);
+    --light-accent: #70499e;
+    --dark-accent:#70499e;
+    --off-white: #E2AD70;
+    --box-shadow:5px 5px 5px #a7adb3;
+    --light-dash:#adb1b4;
+    --dark-dash:#5c5e5f;
+    --blue-accent:#C7EDE6;
+    color:white;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~MAIN~~~~~~~~~~~~~~~~~~~*/
 .main-container
@@ -31,23 +46,23 @@
 nav
 {
     grid-area: 1/1/13/3;
-    background-color: var(--lt-off-white);
+    background-color: var(--off-white);
 }
 /*~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~*/
 .header
 {
     grid-area: 1/3/4/13;
-    background-color: var(--lt-main-color); 
+    background-color: var(--main-color); 
 }
 /*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
 .main-dash
 {
     grid-area: 4/3/13/10;
-    background-color: var(--lt-light-dash);
+    background-color: var(--light-dash);
 }
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
 {
     grid-area: 4/10/13/13;
-    background-color: var(--lt-light-accent);
+    background-color: var(--light-accent);
 }
