@@ -10,11 +10,44 @@
 --lt-dark-dash:#d4dbe0;
 --lt-blue-accent:#C7EDE6;
 
-
+/*Dark mode*/
 }
 
 *
 {
     margin:0;
     padding:0;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~MAIN~~~~~~~~~~~~~~~~~~~*/
+.main-container
+{
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap:10px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~NAV BAR~~~~~~~~~~~~~~~*/
+nav
+{
+    grid-area: 1/1/13/3;
+    background-color: var(--lt-off-white);
+}
+/*~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~*/
+.header
+{
+    grid-area: 1/3/4/13;
+    background-color: var(--lt-main-color); 
+}
+/*~~~~~~~~~~~MAIN-DASH~~~~~~~~~~*/
+.main-dash
+{
+    grid-area: 4/3/13/10;
+    background-color: var(--lt-light-dash);
+}
+/*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
+.right-menu
+{
+    grid-area: 4/10/13/13;
+    background-color: var(--lt-light-accent);
 }
