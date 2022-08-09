@@ -22,6 +22,7 @@ body
     --header-font:'Press Start 2P',monospace;
     --content-font:'Inconsolata',monospace;
     --font-color: black;
+    --opposite-font-color: #351D61;
 
     color:black;
 }
@@ -29,15 +30,16 @@ body
 /*Dark mode*/
 body.dark
 {
-    --main-color: rgb(54, 54, 54);
+    --main-color: rgb(71, 70, 70);
     --light-accent: #70499e;
     --dark-accent:#351D61;
     --off-white: #e49f51;
-    --box-shadow:5px 5px 30px #292828;
-    --light-dash:#adb1b4;
-    --dark-dash:#5c5e5f;
+    --box-shadow:5px 5px 10px #292828;
+    --light-dash:#474849;
+    --dark-dash:#2c2d2e;
     --blue-accent:#C7EDE6;
     --font-color:white;
+    --opposite-font-color: #E4DAFF;
 
     color:white;
 }
@@ -257,37 +259,22 @@ button:active
 {
     grid-area: 3/3/13/10;
     align-content: start;
-    display:flex;
-    flex-flow: column nowrap;
     background-color: var(--light-dash);
 }
 .main-dash p
 {
     font-family: var(--header-font);
-    color:var(--dark-accent);
+    color:var(--opposite-font-color);
     font-size: .7rem;
     padding:10px;
-}
-#finished-cards-title
-{
-    background-color: var(--dark-dash);
-    border-radius: 0;
-    border-top: 8px groove var(--light-dash);
 }
 .cards-container
 {
     display:flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
-    height:50%;
-    overflow-y: scroll;
-}
-#finished-cards-container
-{
-    background-color: var(--dark-dash);
-    border-radius: 0;
-    height:45%;
+    justify-content: center;
+
 }
 
 .card
@@ -297,9 +284,9 @@ button:active
     justify-content: flex-start;
     background-color: var(--main-color);
     width: clamp(25ch, 70%, 45ch);
-    height:clamp(15vh, 50%, 25vh);
-    margin:20px;
+    height:15rem;
     padding:10px;
+    margin:10px;
     box-sizing: border-box;
     font-family: var(--main-font);
 }
@@ -399,7 +386,8 @@ button:active
     }
     .main-dash
     {
-        grid-area: 3/2/9/5
+        grid-area: 3/2/9/5;
+        overflow-y: scroll;
     }
     .right-menu
     {
