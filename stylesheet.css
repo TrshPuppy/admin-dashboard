@@ -251,7 +251,6 @@ button:active
     align-content: start;
     display:flex;
     flex-flow: column nowrap;
-
     background-color: var(--light-dash);
 }
 .main-dash p
@@ -261,14 +260,27 @@ button:active
     font-size: .7rem;
     padding:10px;
 }
-.current-cards-container
+#finished-cards-title
+{
+    background-color: var(--dark-dash);
+    border-radius: 0;
+    border-top: 8px groove var(--light-dash);
+}
+.cards-container
 {
     display:flex;
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    height:40vh;
     overflow-y: scroll;
-    height:60vh;
+}
+#finished-cards-container
+{
+    background-color: var(--dark-dash);
+    height:35vh;
+    border-radius: 0;
+
 }
 .card
 {
@@ -305,7 +317,7 @@ button:active
     align-items: flex-end;
     justify-content: flex-end;
     flex:1;
-    background-color:var(--main-color)
+    background-color:var(--main-color);
     height:40px;
 }
 .card-icon
