@@ -341,11 +341,40 @@ button:active
 {
     transform: translateY(0px);
 }
+
 /*~~~~~~~~~~~~~~~~~~~RIGHT MENU~~~~~~~~~~~~~~*/
 .right-menu
 {
     grid-area: 3/10/13/13;
     background-color: var(--light-accent);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-menu-container
+{
+    background-color: red;
+    height:45%;
+    width:90%;
+    margin:20px;
+}
+
+.link-container
+{
+    background-color: yellow;
+    width:90%;
+    height:90%;
+    margin:20px;
+}
+
+.community-feed-container
+{
+    background-color: white;
+    width:90%;
+    height:90%;
+    margin:20px;
 }
 /*~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~*/
 @media only screen and (max-width: 810px)
