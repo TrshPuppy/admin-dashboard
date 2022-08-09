@@ -173,8 +173,8 @@ button:active
 {
     width:clamp(40px,15%,50px);
     border-radius: 50%;
-    padding:0 10px;
     cursor: pointer;
+    margin-left:12px;
 }
 .user-account-icon:hover
 {
@@ -226,6 +226,8 @@ button:active
 #grt-box-icon
 {
    width:clamp(45px,7%,90px);
+   margin-right: 10px;
+   margin-left: 0;
 }
 .greeting-text
 {
