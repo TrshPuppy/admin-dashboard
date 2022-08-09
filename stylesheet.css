@@ -274,7 +274,6 @@ button:active
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: center;
-
 }
 
 .card
@@ -302,7 +301,7 @@ button:active
 .card-content
 {
     padding:10px;
-    overflow: scroll;
+   overflow-y: scroll;
 }
 .card-action-icons
 {
