@@ -280,16 +280,17 @@ button:active
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    height:40vh;
+    height:50%;
     overflow-y: scroll;
 }
 #finished-cards-container
 {
     background-color: var(--dark-dash);
-    height:35vh;
     border-radius: 0;
+    height:45%;
 
 }
+
 .card
 {
     display: flex;
@@ -298,7 +299,6 @@ button:active
     background-color: var(--main-color);
     width: clamp(25ch, 70%, 45ch);
     height:clamp(15vh, 50%, 25vh);
-
     margin:20px;
     padding:10px;
     box-sizing: border-box;
