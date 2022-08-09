@@ -61,6 +61,8 @@ nav
     font-family: var(--header-font);
     text-align: center;
     font-size: .7rem;
+    box-shadow: 5px 5px 5px #a7adb3;
+    z-index: 1;
 }
 .logo
 {
@@ -116,6 +118,10 @@ nav
         "src src src src src src src acc acc acc"
         "grt grt grt grt grt grt grt btn btn btn"
         "grt grt grt grt grt grt grt btn btn btn";
+        box-shadow: 0px 5px 5px #a7adb3;
+    position:sticky;
+    top:0;
+    z-index: 1;
 }
 
 .search-bar
