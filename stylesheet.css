@@ -30,16 +30,16 @@ body
 /*Dark mode*/
 body.dark
 {
-    --main-color: rgb(71, 70, 70);
+    --main-color:  #252358;
     --light-accent: #70499e;
     --dark-accent:#351D61;
     --off-white: #e49f51;
-    --box-shadow:5px 5px 10px #292828;
-    --light-dash:#474849;
+    --box-shadow:5px 5px 10px #070707;
+    --light-dash:#050429;
     --dark-dash:#2c2d2e;
     --blue-accent:#C7EDE6;
     --font-color:white;
-    --opposite-font-color: #E4DAFF;
+    --opposite-font-color: #e49f51;
 
     color:white;
 }
@@ -294,7 +294,7 @@ button:active
     /* font-family: var(--main-font); */
     font-size: 1.5rem;
     font-weight: 1000;
-    border-bottom: 3px solid var(--dark-accent);
+    border-bottom: 3px solid var(--opposite-font-color);
     border-radius: 0;
     padding:10px;
 }
@@ -341,7 +341,7 @@ button:active
 
 .right-menu-container
 {
-    background-color: red;
+    background-color:var(--main-color);
     height:45%;
     width:90%;
     margin:20px;
@@ -349,7 +349,7 @@ button:active
 
 .link-container
 {
-    background-color: yellow;
+    background-color: var(--off-white);
     width:90%;
     height:90%;
     margin:20px;
