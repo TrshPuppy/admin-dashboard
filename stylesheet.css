@@ -358,20 +358,21 @@ button:active
     height:90%;
     margin:20px;
 }
-.link-box
+.link-box a
 {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: var(--light-accent);
-    width: clamp(100px, 45%, 200px);
+    width: clamp(100px, 45%, 200px); 
     height:fit-content;
+    border-radius: 10px;;
 }
 .link-box img
 {
-    width: 50%;
+    width: 60%;
 }
 
 .community-feed-container
