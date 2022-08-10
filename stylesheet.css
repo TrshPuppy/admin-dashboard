@@ -361,7 +361,8 @@ button:active
     width:45%;
     height: 35%;
     border-radius: 10px;
-
+    font-size: clamp(.5rem, 2vw, 1rem);
+    word-break: break-all;
 }
 .link-box a
 {
