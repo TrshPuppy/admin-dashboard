@@ -334,7 +334,7 @@ button:active
     grid-area: 3/10/13/13;
     background-color: var(--light-accent);
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
 }
@@ -345,18 +345,23 @@ button:active
     height:45%;
     width:90%;
     margin:20px;
-}
-
-.link-container
-{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--off-white);
-    width:90%;
-    height:90%;
-    margin:20px;
+}
+.link-box
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--light-accent);
+    width:45%;
+    height: 35%;
+    border-radius: 10px;
+
 }
 .link-box a
 {
@@ -365,15 +370,16 @@ button:active
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--light-accent);
-    width: clamp(100px, 45%, 200px); 
-    height:fit-content;
-    border-radius: 10px;;
+    text-decoration: none;
 }
 .link-box img
 {
-    width: 60%;
+    width:50%;
 }
+/* #link-box-icon
+{
+    width:75%;
+} */
 
 .community-feed-container
 {
@@ -411,6 +417,11 @@ button:active
     .right-menu
     {
         grid-area: 9/2/12/5;
+    }
+    .right-menu-container
+    {
+        width:40%;
+        height:90%;
     }
     .account-box
     {
