@@ -349,15 +349,34 @@ button:active
 
 .link-container
 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: var(--off-white);
     width:90%;
     height:90%;
     margin:20px;
 }
+.link-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--light-accent);
+    width: clamp(100px, 45%, 200px);
+    height:fit-content;
+}
+.link-box img
+{
+    width: 50%;
+}
 
 .community-feed-container
 {
-    background-color: white;
+    background-color: var(--off-white);
     width:90%;
     height:90%;
     margin:20px;
