@@ -341,7 +341,6 @@ button:active
 
 .right-menu-container
 {
-    background-color:var(--main-color);
     height:45%;
     width:90%;
     margin:20px;
@@ -357,7 +356,8 @@ button:active
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--light-accent);
+    background-color: var(--off-white);
+    box-shadow: var(--box-shadow);
     width:45%;
     height: 35%;
     border-radius: 10px;
