@@ -265,7 +265,7 @@ button:active
 {
     font-family: var(--header-font);
     color:var(--opposite-font-color);
-    font-size: .7rem;
+    font-size: .8rem;
     padding:10px;
 }
 .cards-container
