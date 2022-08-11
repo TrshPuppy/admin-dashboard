@@ -7,4 +7,4 @@ The requirements for this project include creating an admin dashboard using CSS 
 
 This project allowed me to practice my front-end skills to create an attractive and responsive dashboard. I hope you enjoy!
 
-Time spent: 14 hours.
+Time spent: 22 hours.
