@@ -1,3 +1,14 @@
+/* * * * * * * * * * \
+*  Admin Dashboard   *
+*                    *
+*   By Rose Pineau   *
+*TrshPuppy.githhub.io*
+*                    *
+*  In Conjunction w/ *
+*   The Odin Project *
+* theodinproject.com *
+\* * * * * * * * * * */
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Press+Start+2P&family=Shrikhand&family=Trispace&display=swap');
 *
 {
@@ -6,7 +17,7 @@
     border-radius: 10px;
 }
 
-/*Default/ Light mode*/
+/* Default / light mode */
 body
 {
     --main-color: white;
@@ -28,7 +39,7 @@ body
     color:black;
 }
 
-/*Dark mode*/
+/* Dark mode */
 body.dark
 {
     --main-color:  #252358;
@@ -353,6 +364,7 @@ button:active
     justify-content: space-evenly;
 
 }
+
 .link-box
 {
     display: flex;
@@ -381,10 +393,6 @@ button:active
 {
     width:50%;
 }
-/* #link-box-icon
-{
-    width:75%;
-} */
 
 .community-feed-container
 {
