@@ -23,6 +23,7 @@ body
     --content-font:'Inconsolata',monospace;
     --font-color: black;
     --opposite-font-color: #351D61;
+    --community-box-color:white;
 
     color:black;
 }
@@ -40,6 +41,7 @@ body.dark
     --blue-accent:#C7EDE6;
     --font-color:white;
     --opposite-font-color: #e49f51;
+    --community-box-color:var(--main-color);
 
     color:white;
 }
@@ -288,6 +290,7 @@ button:active
     margin:10px;
     box-sizing: border-box;
     font-family: var(--main-font);
+    border-left: 5px solid var(--off-white);
 }
 .card-title
 {
@@ -336,18 +339,19 @@ button:active
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding:20px;
 }
 
 .right-menu-container
 {
     height:45%;
     width:90%;
-    margin:20px;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
+
 }
 .link-box
 {
@@ -385,9 +389,60 @@ button:active
 .community-feed-container
 {
     background-color: var(--off-white);
-    width:90%;
-    height:90%;
-    margin:20px;
+    width:95%;
+    height:95%;
+    overflow-y: scroll;
+}
+.community-title
+{
+    padding: 10px;
+    font-family: var(--header-font);
+    font-size: .7rem;
+    color:#252358;
+}
+.community-box
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--community-box-color);
+    border-left: 5px solid var(--light-accent);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    margin:20px 10px;
+    padding:10px;
+    cursor: pointer;
+}
+.community-box:hover
+{
+    transform: translateY(-5px);
+}
+.user-box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    padding: 5px 0;
+    font-family: 'Inconsolata';
+}
+.user-icon
+{
+    width:clamp(30px,12%, 50px);
+    border-radius: 50%;
+}
+.user
+{
+    font-family: 'Trispace';
+    font-size: clamp(.7rem, 2vw,1rem);
+    font-weight: bolder;
+    padding: 5px 0;
+}
+.user-quote
+{
+    font-size: clamp(.5rem, 1.5vw, 1rem);
 }
 /*~~~~~~~~~~~~~~~~~~MEDIA~~~~~~~~~~~~~~~~*/
 @media only screen and (max-width: 810px)
