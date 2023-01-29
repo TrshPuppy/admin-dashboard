@@ -1,8 +1,8 @@
-# admin-dashboard
+# Admin Dashboard
 
-## LIVE PREVIEW HERE: https://trshpuppy.github.io/dashboard/dash.html
-### This is my dashboard project for the Odin Project (theodinproject.com).
-You can see the details of the project here: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard.
+## Watch my [video](https://www.youtube.com/watch?v=t_LL-25N048) to see my process and lessons learned!
+## LIVE PREVIEW [HERE](https://trshpuppy.github.io/dashboard/dash.html)
+### This is my dashboard project for the [Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard.).
 
 The requirements for this project include creating an admin dashboard using CSS and HTML with an emphasis on using intermediate skills, especially CSS grid.
 
